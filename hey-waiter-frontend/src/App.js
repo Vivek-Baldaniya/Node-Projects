@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Product from "./components/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, Vivek Baldaniya</h1>
+      <Product />
     </div>
   );
 }

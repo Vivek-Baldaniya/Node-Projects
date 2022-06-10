@@ -1,0 +1,57 @@
+.banner {
+    background-image: url(../../public/img/1.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+.hotelName {
+    padding: 2%;
+    width: fit-content;
+    letter-spacing: 8px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 1, 0.6);
+}
+
+.itemSearch {
+    width: 15em;
+}
+
+#smallCart {
+    color: #363636;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    bottom: 0;
+    background-color: #87FF85;
+    border-radius: 15px 15px 0 0;
+}
+
+#smallCart .btn {
+    color: #363636;
+    border-radius: 30px;
+}
+
+
+/* Product Detail Page Design */
+
+.productDetail {
+    border-radius: 0 0 20px 20px;
+}
+
+.productDetail img {
+    border-radius: 0 0 20px 20px;
+}
+
+.productName h1 {
+    font-size: 35px;
+    color: #363636;
+}
+
+.productDesc h5 {
+    color: grey;
+}
+
+.productPrice h1 {
+    font-size: 35px;
+    color: #ff5858;
+}
